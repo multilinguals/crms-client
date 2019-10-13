@@ -10,6 +10,11 @@
 
     <div class="flex-grow-1"></div>
 
+    <router-link to="/group">
+    <v-btn icon v-on="on">
+      <v-icon>mdi-plus</v-icon>
+    </v-btn>
+    </router-link>
     <v-menu
             left
             bottom

@@ -1,9 +1,9 @@
 <template>
   <v-app>
     <app-bar></app-bar>
-
     <v-content>
-      <main-content></main-content>
+      <loading></loading>
+      <router-view/>
     </v-content>
 
     <bottom-nav></bottom-nav>
@@ -11,17 +11,14 @@
 </template>
 
 <script>
-  import {AppBar, BottomNav, MainContent} from './components/core'
+  import {AppBar, BottomNav, Loading} from './components/core'
 
   export default {
     name: 'App',
     components: {
       AppBar,
       BottomNav,
-      MainContent
-    },
-    data: () => ({
-      bottomNav: 'recent',
-    }),
+      Loading
+    }
   };
 </script>

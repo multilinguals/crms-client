@@ -1,9 +1,9 @@
 import AppBar from './AppBar'
 import BottomNav from './BottomNav'
-import MainContent from './MainContent'
+import Loading from './Loading'
 
 export {
   AppBar,
   BottomNav,
-  MainContent
+  Loading
 }
